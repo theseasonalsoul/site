@@ -1,1 +1,14 @@
-test
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="articles.xsl"?>
+<data>
+  <articles>
+    <entry>
+      <id></id>
+      <author></author>
+      <title></title>
+      <minor></minor>
+      <major></major>
+      
+    </entry>
+  </articles>
+</data>
