@@ -2,10 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <PAGE>
   <HEADING>page heading</HEADING>
+  <articles>
   <ARTICLE>
-    <TITLE>article title</TITLE>
-    <DESCRIPTION>article description</DESCRIPTION>
+    <TITLE>article title one</TITLE>
+    <DESCRIPTION>article one description</DESCRIPTION>
   </ARTICLE>
+    <ARTICLE>
+    <TITLE>article title two</TITLE>
+    <DESCRIPTION>article two description</DESCRIPTION>
+  </ARTICLE>
+  </articles>
   <ASIDE>
     <TITLE>side widget bar</TITLE>
     <ITEM>sidebar item</ITEM>
