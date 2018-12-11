@@ -6,7 +6,7 @@
 
 <xsl:template match="/">
   <h1>Test</h1>
-  <xsl:apply-templates select=""/>
+  <xsl:apply-templates select="page/articles/article"/>
 </xsl:template>
 
   <xsl:template match="page/articles/article">
