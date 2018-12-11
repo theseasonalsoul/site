@@ -5,7 +5,12 @@
 <xsl:output method="html"/>
 
 <xsl:template match="/">
-test
+  <h1>Test</h1>
+  <xsl:apply-templates select=""/>
 </xsl:template>
 
+  <xsl:template match="page/articles/article">
+    <h3><xsl:value-of select="title"/></h3>
+</xsl:template>
+  
 </xsl:stylesheet>
